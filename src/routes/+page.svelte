@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 <div class="hero bg-base-200">
   <div class="hero-content h-12 flex-col lg:flex-row">
+=======
+<div class="hero mt-12">
+  <div class="hero-content flex-col lg:flex-row">
+    <!-- svelte-ignore a11y-missing-attribute -->
+>>>>>>> 53dfdffb5ccb286e8d263f2f8eab43195d02170e
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
       class="max-w-sm rounded-lg shadow-2xl"
