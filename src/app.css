@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .fix-login {
+        height: calc(100svh - 5em);
+    }
+}

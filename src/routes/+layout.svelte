@@ -1,18 +1,20 @@
 <script>
+  import Center from "$lib/components/NavbarSelection/Center.svelte";
+  import End from "$lib/components/NavbarSelection/End.svelte";
+  import Start from "$lib/components/NavbarSelection/Start.svelte";
   import "../app.css";
 </script>
 
 <html lang="en" data-theme="synthwave"></html>
-<div class="sticky top-0">
-  <nav class="sticky navbar bg-base-300">
-    <div class="flex-1">
-      <img src="keruda_logo.png" alt="Logo" class="h-12 ml-3 mt-2 mb-2" />
+
+<div class="text-base-content sticky top-0 z-30">
+  <nav class="navbar bg-base-200">
+    <div class="navbar-start">
+      <Start></Start>
     </div>
-    <div class="flex-none">
-      <button class="mr-2 btn btn-square btn-ghost">
-        <p class="material-symbols-rounded text-3xl">switch_access</p>
-      </button>
-    </div>
+    <div class="navbar-center"><Center></Center></div>
+    <div class="navbar-end"><End></End></div>
   </nav>
 </div>
+
 <slot />

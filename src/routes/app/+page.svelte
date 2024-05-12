@@ -2,26 +2,14 @@
   import FormInput from "$lib/components/FormInput.svelte";
 </script>
 
-<div class="w-96 bg-base-300 flex items-center login">
-  <form class="w-full flex flex-col items-center">
-    <p class="text-2xl mb-6">Login</p>
-
-    <FormInput
-      placeholder="mari néni"
-      cornerPlaceholder="Felhasználó név"
-      icon="person"
-    />
-    <!-- <FormInput
-      placeholder="xx_amongus_slayer@yahoo.com"
-      cornerPlaceholder="Email"
-      icon="email"
-    /> -->
-    <FormInput placeholder="1234" cornerPlaceholder="Jelszó" icon="key" />
+<!-- TODO: Make the rest of the login page -->
+<div
+  class="h-full w-full grid place-items-center sm:fix-login sm:bg-base-300 pt-36 sm:pt-0 sm:w-96"
+>
+  <form class="text-center">
+    <p class="text-xl">Login</p>
+    <FormInput></FormInput>
+    <FormInput></FormInput>
+    <FormInput></FormInput>
   </form>
 </div>
-
-<style>
-  .login {
-    height: calc(100svh - 5em);
-  }
-</style>
