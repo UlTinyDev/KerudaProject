@@ -3,4 +3,4 @@
 </script>
   
 <slot />
-<html lang="en" data-theme="forest"></html>
+<html lang="en" data-theme="synthwave"></html>
