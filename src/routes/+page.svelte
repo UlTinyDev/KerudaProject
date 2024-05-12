@@ -1,0 +1,1 @@
+<img src="keruda_logo.png" alt="Logo" class="h-14 mt-4 ml-6">
