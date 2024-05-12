@@ -1,4 +1,4 @@
-<div class="hero h-12 bg-base-200">
+<div class="hero bg-base-200">
   <div class="hero-content h-12 flex-col lg:flex-row">
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
