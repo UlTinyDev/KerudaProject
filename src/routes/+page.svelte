@@ -1,3 +1,5 @@
+<div class="hero bg-base-200"></div>
+<div class="hero-content h-12 flex-col lg:flex-row"></div>
 <div class="hero mt-12">
   <div class="hero-content flex-col lg:flex-row">
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -6,7 +8,7 @@
       class="max-w-sm rounded-lg shadow-2xl"
     />
     <div>
-      <h1 class="text-5xl font-bold">Box Office News!</h1>
+      <h1 class="text-5xl font-bold">Box Office News!a</h1>
       <p class="py-6">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
         excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
