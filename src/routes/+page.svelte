@@ -1,19 +1,17 @@
-<div class="navbar bg-base-300">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-        </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Homepage among us</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="navbar-center">
-        <img src="keruda_logo.png" alt="Logo" class="h-12 mt-2 mb-2">
-    </div>
-    <div class="navbar-end">
+<div class="hero h-12 bg-base-200">
+  <div class="hero-content h-12 flex-col lg:flex-row">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <h1 class="text-5xl font-bold">Box Office News!</h1>
+      <p class="py-6">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+        excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
+        id nisi.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
     </div>
   </div>
+</div>
