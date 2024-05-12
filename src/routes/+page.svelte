@@ -1,5 +1,6 @@
-<div class="hero h-12 bg-base-200">
-  <div class="hero-content h-12 flex-col lg:flex-row">
+<div class="hero mt-12">
+  <div class="hero-content flex-col lg:flex-row">
+    <!-- svelte-ignore a11y-missing-attribute -->
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
       class="max-w-sm rounded-lg shadow-2xl"
