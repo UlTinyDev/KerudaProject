@@ -15,4 +15,12 @@
     placeholder="123456"
     type="password"
   />
+  <svelte:fragment slot="after">
+    <a href="/auth/register">
+      <button
+        class="btn btn-sm btn-ghost mt-2 text-sm text-secondary opacity-80"
+        >Regisztrálás</button
+      >
+    </a>
+  </svelte:fragment>
 </UserActionForm>

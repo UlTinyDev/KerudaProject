@@ -20,4 +20,13 @@
     placeholder="123456"
     type="password"
   />
+
+  <svelte:fragment slot="after">
+    <a href="/auth/login">
+      <button
+        class="btn btn-sm btn-ghost mt-2 text-sm text-secondary opacity-80"
+        >Bejelentkezés</button
+      >
+    </a>
+  </svelte:fragment>
 </UserActionForm>

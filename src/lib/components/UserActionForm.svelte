@@ -21,6 +21,7 @@
     <p class="text-xl mb-4">{title}</p>
     <slot />
     <button class="btn btn-primary w-full">{title}</button>
+    <slot name="after" />
   </form>
 </div>
 
