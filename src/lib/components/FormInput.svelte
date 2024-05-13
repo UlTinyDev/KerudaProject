@@ -11,7 +11,7 @@
       <span class="label-text">{cornerPlaceholder}</span>
     </div>
 
-    <label class="input input-bordered flex items-center gap-2">
+    <label class="input input-bordered flex items-center gap-2 shadow-2xl">
       <p class="material-symbols-rounded text-md">{icon}</p>
       <input {type} class="grow" {placeholder} />
     </label>
