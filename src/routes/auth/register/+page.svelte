@@ -12,6 +12,7 @@
   <FormInput
     cornerPlaceholder="Email"
     icon="email"
+    type="email"
     placeholder="amongus@yahoo.com"
   />
   <FormInput
