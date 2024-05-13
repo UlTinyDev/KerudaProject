@@ -3,11 +3,10 @@
   export let title = "";
   export let method = "post";
   export let action = "";
-  export let background = "https://w.wallha.com/ws/14/GiOkX9mS.png";
 </script>
 
 <div
-  class="absolute w-full bg-[url('{background}')] -z-10 bg-cover bg-center fix"
+  class="absolute w-full bg-[url('/background.webp')] -z-10 bg-cover bg-center fix"
 ></div>
 
 <div
@@ -16,7 +15,7 @@
   <form
     {method}
     {action}
-    class="text-center bg-base-300/45 sm:bg-base-100/100 pb-6 p-6 rounded-lg backdrop-blur-md border-[1px] sm:border-none border-white/10 sm:backdrop-blur-0 shadow-xl"
+    class="text-center bg-base-300/45 sm:bg-base-100/100 pb-6 p-6 rounded-lg backdrop-blur-md border-[1px] sm:border-none border-white/10 sm:backdrop-blur-0 shadow-xl text-base-content"
   >
     <p class="text-xl mb-4">{title}</p>
     <slot />
