@@ -3,7 +3,12 @@
   import UserActionForm from "$lib/components/UserActionForm.svelte";
 </script>
 
-<UserActionForm title="Bejelentkezés">
+<UserActionForm title="Regisztrálás">
+  <FormInput
+    cornerPlaceholder="Felhasználó név"
+    icon="person"
+    placeholder="xX_darkslayer_Xx"
+  />
   <FormInput
     cornerPlaceholder="Email"
     icon="email"
