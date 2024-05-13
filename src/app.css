@@ -4,34 +4,6 @@
 
 @layer utilities {
     .fix-login {
-        height: calc(100svh - 5em);
+        height: calc(100svh - 4em);
     }
-
-    .special-gradient {
-        --opacity: 1;
-        background-image: linear-gradient(45deg,
-                rgba(166, 50, 168, var(--opacity)) 0%,
-                rgba(168, 51, 167, var(--opacity)) 13%,
-                rgba(170, 51, 166, var(--opacity)) 19%,
-                rgba(171, 52, 165, var(--opacity)) 24%,
-                rgba(173, 53, 164, var(--opacity)) 28%,
-                rgba(174, 54, 163, var(--opacity)) 32%,
-                rgba(176, 55, 163, var(--opacity)) 35%,
-                rgba(177, 56, 162, var(--opacity)) 39%,
-                rgba(178, 57, 161, var(--opacity)) 42%,
-                rgba(180, 58, 160, var(--opacity)) 45%,
-                rgba(181, 59, 159, var(--opacity)) 48%,
-                rgba(182, 60, 159, var(--opacity)) 52%,
-                rgba(184, 61, 158, var(--opacity)) 55%,
-                rgba(185, 62, 157, var(--opacity)) 58%,
-                rgba(186, 63, 156, var(--opacity)) 61%,
-                rgba(187, 64, 155, var(--opacity)) 65%,
-                rgba(188, 65, 155, var(--opacity)) 68%,
-                rgba(190, 66, 154, var(--opacity)) 72%,
-                rgba(191, 67, 153, var(--opacity)) 76%,
-                rgba(192, 68, 152, var(--opacity)) 81%,
-                rgba(193, 69, 151, var(--opacity)) 87%,
-                rgba(194, 70, 151, var(--opacity)) 100%);
-    }
-
 }

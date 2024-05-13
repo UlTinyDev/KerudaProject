@@ -5,9 +5,11 @@
   export let action = "";
 </script>
 
-<div
-  class="absolute w-full bg-[url('/background.webp')] -z-10 bg-cover bg-center fix"
-></div>
+<img
+  class="absolute w-full -z-10 bg-cover bg-center fix object-cover"
+  src="/background.webp"
+  alt=""
+/>
 
 <div
   class="h-full w-full grid place-items-center sm:fix-login sm:bg-base-300/45 pt-36 sm:pt-0 sm:w-96 sm:backdrop-blur-md"
@@ -26,6 +28,6 @@
 
 <style>
   .fix {
-    height: calc(100svh - 5em);
+    height: calc(100svh - 4em);
   }
 </style>
