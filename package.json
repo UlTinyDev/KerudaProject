@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"pocketbase": "^0.21.2",
 		"prettier": "^3.2.5"
 	}
 }
