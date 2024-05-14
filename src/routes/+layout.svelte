@@ -1,20 +1,57 @@
 <script>
-  import Center from "$lib/components/NavbarSelection/Center.svelte";
-  import End from "$lib/components/NavbarSelection/End.svelte";
-  import Start from "$lib/components/NavbarSelection/Start.svelte";
-  import "../app.css";
+    import SquareIconButton from "$lib/components/SquareIconButton.svelte";
+    import "../app.css";
+
+    /** @type {import('./$types').LayoutData} */
+    export let data;
 </script>
 
 <html lang="en" data-theme="synthwave"></html>
 
 <div class="text-base-content sticky top-0 z-30">
-  <nav class="navbar bg-base-200">
-    <div class="navbar-start">
-      <Start></Start>
-    </div>
-    <div class="navbar-center"><Center></Center></div>
-    <div class="navbar-end"><End></End></div>
-  </nav>
+    <nav class="navbar bg-base-200">
+        <div class="navbar-start">
+            <a href="/">
+                <button class="btn btn-ghost">
+                    <img src="/keruda_logo.png" alt="Logo" class="h-8" />
+                </button>
+            </a>
+        </div>
+        <!-- <div class="navbar-center"></div> -->
+        <div class="navbar-end">
+            {#if !data.user}
+                <a href="/auth/register">
+                    <button class="btn btn-primary mx-1">Regisztrálás</button>
+                </a>
+                <a href="/auth/login">
+                    <button class="btn btn-secondary btn-outline mx-1"
+                        >Bejelentkezés</button
+                    >
+                </a>
+            {:else}
+                <div class="mx-4">
+                    <SquareIconButton icon="notifications" indicators="1" />
+                    <a href="/home">
+                        <SquareIconButton icon="home" indicators="0" />
+                    </a>
+                </div>
+
+                <p><strong>zsigszaasdasddasasdasddsa</strong></p>
+
+                <button class="btn px-0">
+                    <div class="avatar">
+                        <div class="w-12 mx-2 rounded-xl">
+                            <!-- svelte-ignore a11y-img-redundant-alt -->
+                            <img
+                                src="https://cdn.discordapp.com/avatars/627801505654636564/e7a25efcb05b3efbfd8868c9ed555149.webp?size=1024&format=webp&width=0&height=230"
+                                alt="profile image"
+                            />
+                        </div>
+                    </div></button
+                >
+            {/if}
+        </div>
+    </nav>
 </div>
 
 <slot />
