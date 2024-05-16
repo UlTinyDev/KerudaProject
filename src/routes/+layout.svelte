@@ -33,7 +33,7 @@
 					</a>
 				</div>
 
-				<p><strong>zsigszaasdasddasasdasddsa</strong></p>
+				<p><strong>{data.user?.name}</strong></p>
 
 				<button class="btn px-0">
 					<div class="avatar">
@@ -46,6 +46,9 @@
 						</div>
 					</div></button
 				>
+				<form action="/auth/logout" method="POST">
+					<SquareIconButton icon="logout" styleClass="btn-outline btn-primary"></SquareIconButton>
+				</form>
 			{/if}
 		</div>
 	</nav>

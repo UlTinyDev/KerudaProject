@@ -30,7 +30,7 @@
 		{#if form?.notVerified}
 			<div role="alert" class="alert alert-warning">
 				<span class="material-symbols-rounded">warning</span>
-				<span>Ez az fiók még nincs ellenőrizve!</span>
+				<span>Ez a fiók még nincs ellenőrizve!</span>
 			</div>
 		{/if}
 	</svelte:fragment>

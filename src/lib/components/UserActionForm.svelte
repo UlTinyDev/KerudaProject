@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	import { enhance } from '$app/forms';
+
 	export let title = '';
 	export let method = 'POST';
 	export let action = '';
@@ -16,6 +18,7 @@
 	<form
 		{method}
 		{action}
+		use:enhance
 		class="text-center bg-base-300/45 sm:bg-base-100/100 pb-6 p-6 rounded-lg backdrop-blur-md border-[1px] sm:border-none border-white/10 sm:backdrop-blur-0 shadow-xl text-base-content"
 	>
 		<p class="text-xl mb-4">{title}</p>

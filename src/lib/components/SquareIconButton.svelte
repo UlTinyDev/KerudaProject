@@ -1,6 +1,7 @@
 <script>
 	export let icon = '';
 	export let indicators = '';
+	export let styleClass = 'btn-ghost';
 </script>
 
 <div class="indicator">
@@ -10,7 +11,7 @@
 		>
 	{/if}
 
-	<buttom class="btn btn-ghost btn-square">
+	<button class="btn {styleClass} btn-square">
 		<p class="material-symbols-rounded">{icon}</p>
-	</buttom>
+	</button>
 </div>
