@@ -13,7 +13,7 @@
 />
 
 <div
-	class="h-full w-full grid place-items-center sm:bg-base-300/45 pt-36 sm:pt-0 sm:w-96 sm:backdrop-blur-md"
+	class="h-full w-full grid place-items-center sm:bg-base-300/45 sm:pt-0 sm:w-96 sm:backdrop-blur-md"
 >
 	<form
 		{method}
