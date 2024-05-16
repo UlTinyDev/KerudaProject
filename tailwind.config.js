@@ -4,11 +4,11 @@ export default {
 	theme: {
 		extend: {
 			height: {
-				header: '72px',
-				remaining: 'calc(100vh - 72px)'
+				header: '64px',
+				remaining: 'calc(100vh - 64px)'
 			},
 			margin: {
-				header: '72px'
+				header: '64px'
 			}
 		}
 	},
